@@ -32,17 +32,19 @@ body li span{
 
 @media (max-width: 600px){
     body{
-        background-color: black;
-        padding: 0%;
+        background-color: black !important;
+        padding: 0% !important;
     }
 
     .element{
-        border-radius: 0px;
-        width: 100vh;
+        border-radius: 0px !important;
+        padding-left: 0% !important;
+        padding-right: 0% !important;
+        width: 100% !important;
     }
 
     .element img{
-        border-radius: 0px;
+        border-radius: 0px !important;
     }
 }
 
