@@ -4,9 +4,59 @@
 }
 
 .attribution a { 
-    color: hsl(28, 45%, 44%); 
+    color: hsl(228, 45%, 44%); 
 }
 
 body{
     background-color: hsl(30, 54%, 90%);
+    display: flex;
+    color: hsl(30, 10%, 34%);
+    flex-wrap: nowrap;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    height: fit-content;
+    font-family: sans-serif ;
+}
+
+.element{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    padding: 2.5%;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.element img{
+    border-radius: 15px;
+}
+
+h1{
+    font-family: serif;
+    color: hsl(24, 5%, 18%);
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.prep p{
+    color: hsl(332, 51%, 32%);
+    font-weight: 700;
+}
+
+.prep li{
+    margin-bottom: 2%;
+}
+
+.prep li span{
+    position: relative;
+    left: 3%;
 }
