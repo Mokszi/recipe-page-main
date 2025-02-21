@@ -84,6 +84,10 @@ hr{
     opacity: 50%;
 }
 
+.instructions{
+    margin: 3%;
+}
+
 .instructions p{
     font-family: serif;
     font-size: 150%;
