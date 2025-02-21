@@ -120,7 +120,7 @@ table{
 
 td {
     padding: 2%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid hsl(0, 0%, 0%, 0.2);
 }
 
 tr.last td{
