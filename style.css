@@ -34,6 +34,14 @@ body li span{
     body{
         background-color: black;
     }
+
+    .element{
+        border-radius: 0px;
+    }
+
+    img{
+        border-radius: 0px;
+    }
 }
 
 .element{
