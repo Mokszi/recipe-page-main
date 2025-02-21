@@ -21,6 +21,21 @@ body{
     font-family: sans-serif ;
 }
 
+body li{
+    margin-bottom: 2%;
+}
+
+body li span{
+    position: relative;
+    left: 3%;
+}
+
+@media (max-width: 600px){
+    body{
+        background-color: black;
+    }
+}
+
 .element{
     display: flex;
     flex-direction: column;
@@ -52,11 +67,32 @@ h1{
     font-weight: 700;
 }
 
-.prep li{
-    margin-bottom: 2%;
+
+.ingredients p{
+    font-family: serif;
+    font-size: 150%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
 }
 
-.prep li span{
-    position: relative;
-    left: 3%;
+.ingredients li::marker{
+    color: hsl(14, 45%, 36%);
+}
+
+hr{
+    width: 100%;
+    opacity: 50%;
+}
+
+.instructions p{
+    font-family: serif;
+    font-size: 150%;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+ol li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+    font-family: sans-serif;
 }
